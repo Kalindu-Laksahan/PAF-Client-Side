@@ -68,7 +68,7 @@ public class researcher {
 			output = "{\"status\":\"success\", \"data\": \"" +newResearcher + "\"}"; 
 			//output = "Inserted successfully";
 		} catch (Exception e) {
-			output = "{\"status\":\"success\", \"data\": \"Error while inserting.\"}"; 
+			output = "{\"status\":\"Error\", \"data\": \"Error while inserting.\"}"; 
 			
 			//output = "Error while inserting........";
 			System.err.println(e.getMessage());
